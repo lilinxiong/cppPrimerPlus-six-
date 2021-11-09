@@ -33,7 +33,7 @@ int main()
             << (*it).second    << endl;
 
     pair<MapCode::iterator, MapCode::iterator> 
-		auto range
+		range
          = codes.equal_range(718);
     cout << "Cities with area code 718:\n";
     for (it = range.first; it != range.second; ++it)
